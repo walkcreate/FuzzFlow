@@ -1,0 +1,9 @@
+#ifndef FUZZFLOW_INSPECTIONOPTIONS_H
+#define FUZZFLOW_INSPECTIONOPTIONS_H
+
+class InspectionOptions {
+
+};
+
+
+#endif //FUZZFLOW_INSPECTIONOPTIONS_H

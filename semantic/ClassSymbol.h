@@ -1,0 +1,8 @@
+#ifndef FUZZFLOW_CLASSSYMBOL_H
+#define FUZZFLOW_CLASSSYMBOL_H
+
+class ClassSymbol {
+
+};
+
+#endif //FUZZFLOW_CLASSSYMBOL_H

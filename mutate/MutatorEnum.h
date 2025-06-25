@@ -1,0 +1,29 @@
+#ifndef FUZZFLOW_MUTATORENUM_H
+#define FUZZFLOW_MUTATORENUM_H
+
+namespace FuzzFlow {
+
+enum class MutatorEnum
+{
+    MUTATE_INPUTS,
+    MUTATE_BINARY_OP,
+    MUTATE_FLOAT,
+
+    INSERT_STORE,
+    INSERT_INVOKE,
+    INSERT_SEQUENCES,
+
+    SWAP_IF_BRANCHES,
+    MOVE_SEQ_OPERATION,
+    MOVE_CTRL_GROUP,
+
+    DEL_STORE_NODE,
+    DEL_INVOKE_NODE,
+    DEL_DELETE_NODE,
+
+    SPLICE
+};
+
+} /// end of namespace
+
+#endif //FUZZFLOW_MUTATORENUM_H
